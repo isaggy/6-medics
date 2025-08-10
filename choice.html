@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/loader2.css">
+    <title>Document</title>
+    <style>
+       *{
+ margin: 0px;
+ padding: 0px;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 20px;
+	color: #999999;
+	font-size: 300;
+	font-size: 16px;
+    background-image: url(/img/bg6.jpg);
+    background-size: cover;
+}
+.main{
+
+ margin: 2%;
+}
+
+.card{
+     width: 20%;
+     display: inline-block;
+     box-shadow: 0 0 30px grey;
+     background-color: #0CB8B6;
+     color: #fff;
+     margin: 2%;
+     margin-left: 300px;
+     margin-top: 60px;
+     border-radius: 30px;
+
+    }
+    
+    .card:hover{
+      box-shadow: 0px 0px 25px #000;
+    transition: all 0.1s ease-in;
+}
+
+.image img{
+  width: 100%;
+  height: 240px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 30px;
+  
+
+ 
+ }
+
+.title{
+ 
+  text-align: center;
+  padding: 10px;
+  
+ }
+
+h1{
+  font-size: 20px;
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+ 
+  padding-top: 10px;
+        border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+button{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: #1112;
+  width: 85%;
+  border: none;
+  border-radius: 10px;
+  padding:10px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+button:hover{
+  background-color: #256163;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+.category{
+   width:100%;
+   height: 30px;
+   margin-left: 30px;
+   font-size: 30px;
+   color:black;
+   padding-top: 7px;
+}
+.choice .card #card2{
+margin-left: -500px;
+}
+.bar{
+    margin:30px 10px 0px 10px;
+    font-size: 50px;
+    width: 95%;
+    height: 80px;padding-top: 20px;
+    text-align: center;color: black;
+}
+#orange{
+    border: 2px solid orange;
+    margin-top: -35px;
+    width: 2%;
+    margin-left: 610px;
+    margin-bottom: 20px;
+}
+.main hr{
+   border: 2px solid orange;
+   width:4%;
+   margin-top: 10px;
+   margin-left: 34px;
+}
+
+@media(max-width:1000px){
+    .card{
+        width: 45%;
+    }
+}
+@media(max-width:750px){
+    .card{
+        width: 100%;
+    }
+}
+
+</style>
+    </style>
+</head>
+<body onload="myFunction()">
+    <div id="preloader"></div>
+    <section id="myDiv">
+    <div class="bar"><strong>Log in Here !</strong></div>
+    <hr id="orange">
+    
+    <section class="choice">
+        <div class="card" id="card2">
+
+            <div class="image">
+               <img src="/img/choice.jpg">
+            </div>
+            <div class="title">
+             <h1>I am a patient</h1>
+             <button><a href="login.html">Log in</a></button>
+            </div>
+            </div>
+
+    <div class="card" id="card2">
+
+        <div class="image">
+           <img src="/img/choice.jpg">
+        </div>
+        <div class="title">
+         <h1>I am a doctor</h1>
+         <button><a href="doclogin.html">Log in</a></button>
+        </div>
+        </div>
+    </section>
+    <hr style="margin-top: 50px;">
+</section>
+    <script src="/js/loader2.js"></script>
+</body>
+</html>
